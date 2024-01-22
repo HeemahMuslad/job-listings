@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-image: url("/images/bg-header-desktop.svg");
+  background-size: cover;
+  background-position: center;
+background-color:hsl(180, 29%, 50%) ;}
