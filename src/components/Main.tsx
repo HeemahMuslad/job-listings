@@ -10,7 +10,7 @@ interface Props {
 const Main = ({ children, filter ,onFilterActive}: Props) => {
   return (
     <>
-      <div className={`bg-primary  ${onFilterActive === true? "p-0" :"py-10"}`}   >
+      <div className={`  ${onFilterActive === true? "p-0" :"py-10"}`}   >
         <div className="">{filter}</div>
         <div className=" ">{children}</div>
       </div>

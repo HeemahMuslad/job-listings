@@ -36,7 +36,7 @@ const App = () => {
         onFilterActive={onFilterActive}
         filter={
           onFilterActive && (
-            <div className="w-max m-auto p-5 bg-white shadow-lg rounded flex items-center relative   flex-wrap -top-8 gap-3">
+            <div className="w-max m-auto p-5 bg-white shadow-lg rounded flex items-center relative   flex-wrap -top-8 gap-3 ">
               {selectedTabs.map((tab, index) => (
                 <div
                   key={tab}
@@ -53,7 +53,7 @@ const App = () => {
               ))}
               <p
                 onClick={onClearFilters}
-                className=" text-dark font-semibold right-5 absolute cursor-pointer hover:bg-secondary hover:text-light p-2 rounded"
+                className=" text-dark font-semibold  cursor-pointer hover:bg-secondary hover:text-light p-2 rounded"
               >
                 Clear
               </p>

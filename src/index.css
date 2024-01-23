@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: hsl(180, 52%, 96%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
 .header{
   background-image: url("/images/bg-header-desktop.svg");
   background-size: cover;
